@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Layout</title>
+	<style>
+		/*
+			1. 觀察HTML文件的結構
+				第一列 : 容器<div>背景為粉紅色 rgb(255, 174, 201) ; 頁首<header>背景為淺黃色 #ffff80
+				第二列 : 容器<div>背景為淺灰色 #eee ; 導覽<nav>背景為灰色 grey
+				第三列 : 容器<div>背景為淺灰色 #eee ; 主要內文區(Content) <div>背景為淺藍色 #80ffff
+				第四列 : 容器<div>背景為粉紅色 rgb(255, 174, 201) ; 頁尾<footer>背景為橘色 #ffad5b
+			2. 四列的容器<div>要滿版(和瀏覽器之間不可有空隙)
+			3. 頁首<header>, 導覽<nav>, 主要內文區(content), 頁尾<footer> , 四個區域的寬度圴為瀏覽器寬度的 80%
+		*/
+		body{
+			/*控制滿版*/
+			margin: 0;
+		}
+
+		.box1 {background-color: rgb(255, 174, 201);}
+		header {
+			background-color: #ffff80; 
+			height: 100px;
+			line-height: 100px;
+			text-align: center;
+		}
+
+		.box2, .box3 {background-color: #eee;}
+		nav {
+			background-color: grey; 
+			height: 50px;
+			line-height: 50px;
+			text-align: center; 
+		}
+
+		.box3 div {
+			background-color: #80ffff; 
+			height: 400px;
+			line-height: 400px;
+			text-align: center;
+		}
+
+		.box4 {background-color: rgb(255, 174, 201);}
+		footer {
+			background-color: #ffad5b; 
+			height: 100px;
+			line-height: 100px;
+			text-align: center;
+		}
+		.content{
+			width:80%;
+			margin:auto;
+		}
+
+		.wrapper{
+			width: 90%;
+			margin: auto;
+		}
+
+	</style>
+</head>
+	<div class="wrapper box1">
+		<header class="content">
+			&lt;Header&gt;
+		</header>
+	</div>
+
+	<div class="wrapper box2">
+		<nav class="content">
+			&lt;NAV&gt;
+		</nav>
+	</div>
+	
+	<div class="wrapper box3">
+		<div class="content">
+			&lt;Content&gt;
+		</div>
+	</div>
+
+	<div class="wrapper box4">
+		<footer class="content">
+			&lt;Footer&gt;
+		</footer>
+	</div>
+	
+</bodY>
+</html>

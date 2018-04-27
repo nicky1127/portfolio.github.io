@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	
+	<link href="https://fonts.googleapis.com/css?family=Pacifico|Shadows+Into+Light" rel="stylesheet">
+	<meta charset="utf-8">
+	<title>Index</title>
+	<style>
+		body {margin:0;}
+		header {
+			/*border:1px solid #000;*/
+			height: 250px;
+			background-image: url(images/thames.jpg);
+			background-position: 60% 60%;
+			margin-top: -23px;
+			
+		}
+		.index:link {
+			color: white;
+		}
+		.index:visited{
+			color: white;
+		}
+		header h1 span{
+
+			margin-left: 130px;
+			font-family: 'Pacifico', cursive;
+			font-size: 50px;
+			color: white;
+			text-shadow: 7px 7px 10px #ccc;
+			
+		}
+		header h1 span:hover {
+			text-shadow: -7px -7px 10px #FF5151;
+			
+			
+		}
+		header p {
+			font-family: 'Shadows Into Light', cursive;
+			font-size: 30px;
+			margin-left: 170px;
+			margin-top: -20px;
+			text-shadow: 7px 7px 10px #ccc;
+					}
+		@keyframes move {
+			from {transform: translate(0);}
+			to{transform: translate(50px);}
+		}
+		@keyframes color {
+			from {text-shadow: 7px 7px 10px #ccc;}
+			to{text-shadow: -7px -7px 10px #FF5151;}
+		}  
+	
+		#middle {
+			height: 300px;
+		}
+		nav {
+			
+			font-family: 'Shadows Into Light', cursive;
+			font-size: 30px;
+			float: left;
+			width: 25%;
+			height: 100%;
+			background: #eee;
+
+		}
+		.nav:link {
+			color: black;
+		}
+		.nav:visited {
+			color: black;
+		}
+		.nav:active {
+			color: 	#FFD306;
+		}
+		ul li {
+			list-style-type: none;
+			margin: 10px;
+		}
+		ul li:hover {
+			list-style-image: url(images/tower.png);
+
+		}
+		ul li:active {
+			list-style-type: none;
+			
+			transform: scale(1.2) translate(30px);
+		}
+		
+		#main {
+			
+			float: right;
+			width: 70%;
+			height:100%;
+		}
+
+		footer {
+			font-family: 'Shadows Into Light', cursive;
+			clear: both;
+			text-align: right;
+			background-color: #84C1FF;
+			height: 65px;
+
+
+		}
+		.abc{
+			margin-right: 20px;
+			float: right;
+			width: 20%;
+		}
+		
+		.abc:hover {
+			transform: scale(1.5) translate(-30px);
+
+		}
+
+
+		/*--------------以下為ＭＡＩＮ區-----------------*/
+		
+
+	</style>
+</head>
+<body>
+	<header>
+		<h1><span><a class="index" href="index.html" style="text-decoration: none;"> Bon Voyage</a></span></h1>
+		<p>My travelling records</p>
+	</header>
+	<div id="middle">
+		<nav>
+			<ul>
+				<li><a class="nav" href="countries.html" >Visited countries</a>
+					<ol>
+						<li><a class="nav" href="uk.html" >United Kingdom</a></li>
+						<li><a class="nav" href="france.html" >France</a></li>
+						<li><a class="nav" href="spain.html" >Spain</a></li>
+						<li><a class="nav" href="italy.html" >Italy</a></li>
+						<li><a class="nav" href="denmark.html" >Denmark</a></li>
+						<li><a class="nav" href="holland.html" >Netherlands</a></li>
+						<li><a class="nav" href="austria.html" >Austria</a></li>
+						<li><a class="nav" href="czech.html" >Czech</a></li>
+						<li><a class="nav" href="iceland.html" >Iceland</a></li>
+						<li><a class="nav" href="belgium.html" >Belgium</a></li>
+					</ol>
+				</li>
+				<li><a class="nav" href="hw.html" >Homeworks</a>
+					<ol>
+						<li><a class="nav" href="0430.html" >4/30 </a></li>
+						<li><a class="nav" href="0507.html" >5/7 </a></li>
+						<li><a class="nav" href="0514.html" >5/14 </a></li>
+					</ol>
+				</li>
+				
+			</ul>
+		</nav>
+		<div id="main"> <!-- 以下為ＭＡＩＮ區 -->
+			
+		</div>
+
+	</div>
+
+
+	<footer>
+		<div class="abc"><a class="email" href="mailto:nximage23@gmail.com" style="text-decoration: none;"> Contact me</a></div>
+	</footer>
+
+	
+	
+</body>
+</html>
