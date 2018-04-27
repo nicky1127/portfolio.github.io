@@ -1,0 +1,225 @@
+body {margin:0;}
+		/* -----Header-----*/
+		header {
+			margin: 0 auto;
+			width: 1200px;
+			
+			
+		}
+		.top {
+			position: relative;
+
+		}
+		.member {
+			
+			width:65px;
+			height:17px;
+			position:absolute;
+			top:-28px;
+			left:900px;
+  			font-size: 12px;
+  			border: 1px solid #CCCCCC;
+ 			margin-top: 2px;
+ 			padding: 2px 8px;
+ 			z-index: 5;
+		}
+		.member a {
+			color:#333333;
+			text-decoration:none;
+		}
+		.member a:hover {
+		text-decoration:underline;
+		}
+
+		.wallpaper {
+			margin-top: 28px;
+			height: 500px;
+			background-image: url(images/thames.jpg);
+			background-position: 10% 50%;
+			position: relative;
+			
+		}
+		.index:link {
+			color: white;
+		}
+		.index:visited{
+			color: white;
+		}
+		header h1 {
+			position: relative;
+			top: 40px;
+			left: 30px;
+		}
+		header h1 span{
+			margin-left: 130px;
+			font-family: 'Pacifico', cursive;
+			font-size: 50px;
+			color: white;
+			text-shadow: 7px 7px 10px #ccc;
+			
+		}
+		header h1 span:hover {
+			text-shadow: -7px -7px 10px #FF5151;
+			
+			
+		}
+		header p {
+			position: relative;
+			top: 40px;
+			left: 30px;
+			font-family: 'Shadows Into Light', cursive;
+			font-size: 30px;
+			margin-left: 170px;
+			margin-top: -20px;
+			text-shadow: 7px 7px 10px #ccc;
+					}
+		@keyframes move {
+			from {transform: translate(0);}
+			to{transform: translate(50px);}
+		}
+		@keyframes color {
+			from {text-shadow: 7px 7px 10px #ccc;}
+			to{text-shadow: -7px -7px 10px #FF5151;}
+		}  
+		
+		a {text-decoration: none;}
+		/*-----middle-----*/
+		#middle {
+			margin-bottom: 350px;
+
+		}
+
+		nav {
+			
+			font-family: 'Shadows Into Light', cursive;
+			font-size: 30px;
+			float: left;
+			width: 25%;
+			height: 100%;
+			background: #eee;
+
+		}
+		.nav:link {
+			color: black;
+		}
+		.nav:visited {
+			color: black;
+		}
+		.nav:active {
+			color: 	#FFD306;
+		}
+		ul>li {
+			list-style-type: none;
+			margin: 10px;
+			position: relative;
+		}
+		ul>li:hover {
+			list-style-image: url(images/tower.png);
+
+		}
+		ul>li:active {
+			list-style-image: none;
+		}
+		ul li ol {
+			position: absolute;
+			font-size: 20px;
+			background: #eee;
+			left: 150px;
+			top: -30px;
+			display: none;
+			z-index: 2;
+			width: 150px;
+
+		}
+		ul>li:hover ol  {
+			display: block;
+	
+		}
+		ul>li:hover ol li {
+			
+			list-style-image: none;
+			list-style-type: none;
+		}
+		ul>li:hover ol li:hover{
+			
+			list-style-image: url(images/tower.png);
+		}
+
+
+
+		
+		#main {
+			
+			float: right;
+			width: 70%;
+			height:100%;
+		}
+		#main article {
+			padding-right: 10px;
+			font-family: 'Shadows Into Light', cursive;
+			font-size: 20px;
+			font-weight: middle;
+		}
+		#main article:first-letter{
+			color: red;
+			font-size: 40px;
+		}
+		#main article p:hover{
+			transform: scale(1.1) translate(-10px);
+			text-shadow: 3px 3px 8px #930093;
+		}
+
+		#main .hw{
+			width: 15em; height: 9em;
+			margin: 20px 20px 0px 25px;
+		}
+
+		/*-----Footer-----*/
+
+		footer {
+			font-family: 'Shadows Into Light', cursive;
+			clear: both;
+			text-align: right;
+			background-color: #84C1FF;
+			height: 65px;
+
+
+		}
+		.abc{
+			margin-right: 20px;
+			float: right;
+			width: 20%;
+		}
+		
+		.abc:hover {
+			transform: scale(1.5) translate(-30px);
+
+		}
+
+
+		/*--------------以下為ＭＡＩＮ區-----------------*/
+		img.img {
+			float: left;
+			margin-top: 20px;
+			margin-right: 10px;
+			margin-bottom: 30px;
+			border-radius: 10%;
+			transition: all 0.5s ease; 
+			width: 200px;
+			height: 150px;
+		}
+		
+		img.img:hover {
+			border-radius: 5%;
+			transform: scale(2.3);
+			
+		}
+		.flag {
+			margin: 10px;
+			float: left;
+		
+		}
+		.flag img:hover {
+			transform: scale(1.3);
+			opacity: 0.8;
+		}

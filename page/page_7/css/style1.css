@@ -1,0 +1,127 @@
+#mainNavigation {
+  /* nav */
+  position: relative;
+  top: 60px;
+}
+#mainNavigation li {
+  padding-top: 1px;
+  margin-bottom: 1px;
+}
+#mainNavigation a {
+  display: block;
+  padding: 1.5em;
+  overflow: hidden;
+  color: #888;
+  border-left: 0.5em solid #ddd;
+}
+#mainNavigation .separate a {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+#mainNavigation i {
+  display: inline-block;
+  width: 18%;
+  vertical-align: middle;
+  font-size: 2.5em;
+  line-height: 1;
+  color: inherit;
+}
+#mainNavigation span {
+  display: inline-block;
+  font-size: 1.6em;
+  line-height: 1;
+  vertical-align: middle;
+  width: 70%;
+  color: inherit;
+}
+#mainNavigation a,
+#mainNavigation a:hover i,
+#mainNavigation a:hover span {
+  -webkit-transition: all 0.2s linear;
+  transition: all 0.2s linear;
+}
+
+#mainNavigation .nav_bookmark a {
+  padding-left: 1.8em;
+}
+
+#mainNavigation .nav_search a:hover {
+  /* Search的顏色 */
+  color: #717FE7;
+  border-color: #717FE7;
+  background-color: #F4F5FF;
+}
+
+#mainNavigation .nav_bookmark a:hover {
+  /* Bookmark的顏色 */
+  color: #FFB15C;
+  border-color: #FFB15C;
+  background-color: #FFF3E7;
+}
+
+#mainNavigation .nav_tags a:hover {
+  /* Tags的顏色 */
+  color: #7AD8E9;
+  border-color: #7AD8E9;
+  background-color: #F7FBFF;
+}
+
+#mainNavigation .nav_heart a:hover {
+  /* Heart的顏色 */
+  color: #FF93FB;
+  border-color: #FF93FB;
+  background-color: #FCF0FB;
+}
+
+#mainNavigation .nav_comment a:hover {
+  /* Comment的顏色 */
+  color: #73DF50;
+  border-color: #73DF50;
+  background-color: #F3FFEF;
+}
+
+#mainNavigation .nav_gear a:hover {
+  /* Gear的顏色 */
+  color: #E2C528;
+  border-color: #E2C528;
+  background-color: #FFFdEa;
+}
+
+#mainNavigation .mainNavigation_trigger {
+  /* nav顯示、隱藏的按鈕 */
+  position: absolute;
+  bottom: 0;
+  right: -4em;
+  width: 4em;
+  border-radius: 0 8px 8px 0;
+  background-color: rgba( 255, 255, 255, 0.9);
+  behavior: url(PIE.htc);
+}
+#mainNavigation .mainNavigation_trigger a {
+  border: none;
+  padding: 1em 1em 0.75em 0.75em;
+  cursor: pointer;
+}
+#mainNavigation .mainNavigation_trigger i {
+  width: auto;
+}
+
+#subContainer {
+
+	position: fixed;
+	left: -260px;
+	
+	top: 0;
+	z-index: 500;
+	width: 260px;
+	height: 100%;
+	background-color: rgba(255, 255, 255,0.9);
+	-webkit-transition: left 0.4s ease-in-out;
+	transition: left0.4s ease-in-out;
+	behavior: url(PIE.htc);
+}
+
+
+
+
+
