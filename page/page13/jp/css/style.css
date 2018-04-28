@@ -28,7 +28,7 @@ body {
       display: inline-block;
       font-size: 2.5rem;
       font-family: 'Anton', sans-serif;
-      margin-top: -10px; }
+      }
     body .wrapper #header #header-nav {
       float: right; }
       body .wrapper #header #header-nav li {

@@ -27,8 +27,7 @@ body {
     body .wrapper #header span {
       display: inline-block;
       font-size: 2.5rem;
-      font-family: 'Anton', sans-serif;
-      }
+      font-family: 'Anton', sans-serif; }
     body .wrapper #header #header-nav {
       float: right; }
       body .wrapper #header #header-nav li {
@@ -163,7 +162,7 @@ body {
         position: absolute;
         top: 0;
         left: 0;
-        background-image: url(../wood.JPEG);
+        background-image: url(../pics/wood.JPEG);
         background-size: contain;
         width: 100%;
         height: 100%;
@@ -191,4 +190,4 @@ body {
     body footer .gh {
       grid-column: 14/span 1; }
 
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=style2.css.map */
