@@ -12,7 +12,7 @@ body {
   transform: translateZ(-1px);
   overflow-x: hidden;
   overflow-y: auto;
-  background: url("1.jpeg") no-repeat center center fixed;
+  background: url("1.JPEG") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -25,7 +25,7 @@ body {
   transform: translateZ(-1px);
   overflow-x: hidden;
   overflow-y: auto;
-  background: url("2.jpeg") no-repeat center center fixed;
+  background: url("2.JPEG") no-repeat center center fixed;
   background-size: cover;
   -webkit-background-size: cover;
   -moz-background-size: cover;
