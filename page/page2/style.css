@@ -339,7 +339,7 @@ header{
 .logo{
   grid-area: 1/1/2/3;
   z-index: 3;
-  background-image: url(pics/bank_logo.png);
+  background-image: url(Pics/bank_logo.png);
   background-size: contain;
   background-repeat: no-repeat;
   padding-left: 15px;
