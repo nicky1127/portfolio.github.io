@@ -19,11 +19,15 @@ $button_plan.on('mouseleave', ()=>{
 
 //login
 $login = $('.login');
+
 $login.on('mouseenter', ()=>{
 
 	$login.css({
 		backgroundColor: '#8b008b'
 	});
+	$('.top_bar .form').slideDown();
+	$('.login .arrow').attr("src","Pics/up.PNG");
+
 
 });
 $login.on('mouseleave', ()=>{
@@ -31,6 +35,9 @@ $login.on('mouseleave', ()=>{
 	$login.css({
 		backgroundColor: '#191970'
 	});
+
+	$('.top_bar .form').slideUp();
+	$('.login .arrow').attr("src","Pics/down.PNG");
 
 });
 
@@ -63,7 +70,7 @@ $search = $('.search');
 $search_bar = $('.search_bar');
 $search.on('click', ()=>{
 
-	$search_bar.toggleClass('search_bar_add');
+	$search_bar.slideToggle();
 
 });
 

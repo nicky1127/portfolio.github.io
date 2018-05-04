@@ -1,3 +1,20 @@
+Skip to content
+This repository
+Search
+Pull requests
+Issues
+Marketplace
+Explore
+ @nicky1127
+Sign out
+0
+0 0 nicky1127/portfolio.github.io
+ Code  Issues 0  Pull requests 0  Projects 0  Wiki  Insights  Settings
+portfolio.github.io/page/page2/style.css
+49ceb93  7 days ago
+@nicky1127 nicky1127 ..
+     
+616 lines (488 sloc)  8.87 KB
 @font-face {
   font-family: 'Oswald';
   font-style: normal;
@@ -490,7 +507,7 @@ nav{
 /* banner */
 .banner {
   position: static;
-  background-image: url(pics/banner_4.jpeg);
+  background-image: url(banner_4.jpeg);
   background-repeat: no-repeat;
   background-position: center;
   /*background-attachment: fixed;*/
